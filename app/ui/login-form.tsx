@@ -55,7 +55,13 @@ export default function LoginForm() {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         <LoginButton />
+=======
+        <Button className="mt-4 w-full">
+          Log in <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
+        </Button>
+>>>>>>> 7d100ffabaa2bff6aedeb1edb8af43a61e62f6fb
         <div className="flex h-8 items-end space-x-1">
           {/* Add form errors here */}
         </div>
@@ -63,6 +69,7 @@ export default function LoginForm() {
     </form>
   );
 }
+<<<<<<< HEAD
 
 function LoginButton() {
   return (
@@ -71,3 +78,5 @@ function LoginButton() {
     </Button>
   );
 }
+=======
+>>>>>>> 7d100ffabaa2bff6aedeb1edb8af43a61e62f6fb
